@@ -1,88 +1,121 @@
-AI Support Platform
-A full‑stack AI‑powered customer support platform built with React, TypeScript, Node.js, PostgreSQL, and OpenAI. Designed for fast, intelligent support automation with real‑time communication, secure authentication, and scalable infrastructure.
+A lightweight, full‑stack AI customer support system inspired by platforms like Intercom AI, Zendesk AI, Freshdesk AI, Chatbase, and HelpScout.
+Businesses upload information about their company. Customers ask questions. The AI answers instantly. If the AI cannot answer, it automatically creates a support ticket.
 
 Overview
-This platform delivers AI‑generated responses, RAG‑enhanced knowledge retrieval, multi‑channel support, and automated workflows. It integrates payments, real‑time messaging, and production‑ready email delivery while maintaining a clean, modular architecture.
+This project teaches you how to build a production‑ready AI support platform from scratch. You will create both the customer-facing chat interface and the admin dashboard used by support teams. The system integrates React, Node.js, MongoDB, and the OpenAI API to deliver real-time automated support.
 
-Features
-AI‑powered responses using OpenAI
+How It Works
+A customer asks a question through the chat interface.
 
-RAG retrieval for knowledge‑based answers
+The backend sends the message to the AI model.
 
-Smart routing for escalations
+The AI responds instantly using company-provided knowledge.
 
-Real‑time messaging with Socket.IO
+If the AI cannot answer, the system creates a support ticket.
 
-Secure authentication using JWT + refresh tokens
+Admins manage tickets, customers, analytics, and the knowledge base.
 
-Payment processing via Stripe + webhooks
+Explore more about AI chat, ticket escalation, or knowledge bases.
 
-Email delivery using Nodemailer (dev) and SendGrid/Resend (prod)
+What You Will Learn
+By completing this project, you will gain hands-on experience with:
 
-Analytics dashboards powered by Chart.js
+HTML
 
-Modern frontend with React, TypeScript, Tailwind, React Query
+CSS
 
-Scalable backend with Node.js, Express, Prisma
+JavaScript
 
-Cloud deployment using Vercel, Render, and Neon PostgreSQL
+React
+
+Node.js
+
+Express
+
+APIs
+
+OpenAI API
+
+Databases
+
+Authentication
+
+Deployment
+
+Core Features
+Customer Experience
+AI-powered chat
+
+Conversation memory
+
+Ask any question
+
+Escalate to human support
+
+Submit support tickets
+
+Learn more about conversation memory.
+
+Admin Experience
+Secure login
+
+Dashboard overview
+
+Ticket management
+
+Customer management
+
+Analytics
+
+Knowledge base upload system
+
+Explore admin dashboards.
+
+AI Capabilities
+The AI can answer questions about:
+
+Shipping
+
+Refunds
+
+Hours
+
+Products
+
+Pricing
+
+Returns
+
+Appointments
+
+Any uploaded company information
+
+Dive deeper into AI knowledge ingestion.
 
 Tech Stack
 Frontend
 React
 
-TypeScript
+JavaScript
 
-React Router
+CSS
 
-React Query
-
-Tailwind CSS
-
-Chart.js
+Axios
 
 Backend
 Node.js
 
 Express
 
-TypeScript
-
-Prisma ORM
+OpenAI API
 
 Database
-PostgreSQL (Neon)
+MongoDB
 
 Authentication
 JWT
 
-Refresh Tokens
-
-bcrypt
-
-AI
-OpenAI API
-
-RAG (Retrieval‑Augmented Generation)
-
-Prompt Engineering
-
-Payments
-Stripe
-
-Webhooks
-
-Real‑Time
-Socket.IO
-
-Email
-Nodemailer (development)
-
-SendGrid or Resend (production)
-
 Deployment
-Vercel (frontend)
+Vercel (Frontend)
 
-Render (backend)
-
-Neon (database)
+Render (Backend)
